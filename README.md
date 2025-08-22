@@ -37,8 +37,8 @@ python nginx_analyzer.py /var/log/nginx/access.log --output report.json
 2. git push origin develop
 
 3. git checkout -b feature/my-new-feature
-    git add .
-    git commit -m "Add new feature"
-    git push origin feature/my-new-feature
-    gh pr create --base main --head feature/my-new-feature --title "Add new feature" --body "Please accept and deploy it, its Friday"
+   git add .
+   git commit -m "Add new feature"
+   git push origin feature/my-new-feature
+   gh pr create --base main --head feature/my-new-feature --title "Add new feature" --body "Please accept and deploy it, its Friday"
 ```
