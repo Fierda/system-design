@@ -1,0 +1,25 @@
+apiVersion: v2
+name: ecommerce
+description: Helm chart for Ecommerce Node.js Frontend + Go Backend microservices
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+
+home: https://shop.example.com
+sources:
+  - https://github.com/myrepo/ecommerce-frontend
+  - https://github.com/myrepo/ecommerce-backend
+
+maintainers:
+  - name: My....
+    email: devops@yourcompany.com
+
+keywords:
+  - ecommerce
+  - nodejs
+  - golang
+  - microservices
+  - retail
+
+annotations:
+  category: E-commerce
